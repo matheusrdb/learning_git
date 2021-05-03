@@ -1,9 +1,9 @@
 print("Hello World")
 
 # Inicei duas variáveis com input de usuário
-print("Vamos somar números ?")
-valor1 = int(input("Digite o primeiro número: "))
-valor2 = int(input("Digite o segundo número : "))
+print("Vamos somar valores ?")
+valor1 = int(input("Digite o primeiro valor: "))
+valor2 = int(input("Digite o segundo valor : "))
 
 valorFinal = valor1 + valor2
 
