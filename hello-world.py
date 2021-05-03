@@ -1,5 +1,11 @@
-print("Hello World");
+print("Hello World")
 
-pergunta1 = input("Where you from?\n");
+# Inicei duas variáveis com input de usuário
+print("Vamos somar números ?")
+valor1 = int(input("Digite o primeiro número: "))
+valor2 = int(input("Digite o segundo número : "))
 
-print("Cool, in {} the climate is tropical?".format(pergunta1));
+valorFinal = valor1 + valor2
+
+print("O resultado da soma entre {0} e {1} é {2}.".format(valor1, valor2, valorFinal))
+
